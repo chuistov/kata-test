@@ -9,12 +9,10 @@ public class CalculatorRunner {
     }
 
     private void go() {
-        while (true) {
-            var expression = getExpression();
-            expression.prepare();
-            String result = new Calculator().process(expression);
-            output(result);
-        }
+        var expression = getExpression();
+        expression.prepare();
+        String result = new Calculator().process(expression);
+        output(result);
     }
 
     private ArithmeticExpression getExpression() {
