@@ -1,6 +1,6 @@
 package test;
 
-public class Calculator {
+class Calculator {
     private boolean expressionContainsRomanNumbers;
     private String leftPart;
     private String rightPart;

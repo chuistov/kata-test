@@ -1,6 +1,6 @@
 package test;
 
-public final class ArithmeticExpression {
+class ArithmeticExpression {
 
     private final int MAX_NUMBER = 10;
     private final String expression;
